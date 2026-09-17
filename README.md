@@ -62,7 +62,7 @@ También se realizaron pruebas para observar el efecto de las interferencias el�
 
 ## Archivos
 
-- `ECG_ESP32_AD8232.ino`: código utilizado para el funcionamiento del sistema.
+- `ECG_AD8232.ino`: código utilizado para el funcionamiento del sistema.
 - `diagrama.png`: diagrama de conexiones del sistema.
 - Imágenes de las pruebas realizadas durante el proyecto.
 
