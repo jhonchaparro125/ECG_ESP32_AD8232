@@ -46,6 +46,12 @@ Durante las pruebas se realizaron diferentes posiciones de los electrodos y se o
 
 La alimentación de 3.3 V y GND se distribuye mediante la tarjeta de expansión del ESP32.
 
+## Diagrama de conexiones
+
+A continuación se presenta el diagrama de conexiones utilizado en el montaje del sistema.
+
+![Diagrama de conexiones](DIAGRAMA.png)
+
 ## Funcionamiento
 
 Los electrodos captan la actividad eléctrica del corazón y el módulo AD8232 acondiciona la señal para que pueda ser leída por el ESP32.
@@ -62,9 +68,8 @@ También se realizaron pruebas para observar el efecto de las interferencias el�
 
 ## Archivos
 
-- `ECG_AD8232.ino`: código utilizado para el funcionamiento del sistema.
-- `diagrama.png`: diagrama de conexiones del sistema.
-- Imágenes de las pruebas realizadas durante el proyecto.
+- `ECG_ESP32_AD8232.ino`: código utilizado para el funcionamiento del sistema.
+- `DIAGRAMA.png`: diagrama de conexiones del sistema.
 
 ## Nota
 
